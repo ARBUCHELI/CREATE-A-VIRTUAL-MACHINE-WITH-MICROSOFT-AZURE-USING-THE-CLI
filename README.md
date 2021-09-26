@@ -12,9 +12,9 @@ az vm create \
    --generate-ssh-keys \
    --verbose```
 * 3.	Upon success, you will have a JSON response.
-* 4.	Next we will open port 80 to allow outside traffic to our VM
+* 4.	Next we will open port 80 to allow outside traffic to our VM ```
 az vm open-port \
-    ```--port "80" \
+    --port "80" \
     --resource-group "resource-group-west" \
     --name "linux-vm-west"```
 * 5.	Upon success, you will receive a JSON response.
